@@ -38,6 +38,7 @@ barra{
     border-radius: 15px;
     padding: 10px;
    
+    cursor: pointer;
     text-decoration: none;      
     transition: 0.3s;
 
