@@ -1,0 +1,209 @@
+html{
+    background-color: rgb(10, 10, 5);
+
+    font-family: 'Roboto', sans-serif;
+
+    margin-left: 185px;
+    margin-right: 200px;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  color: white;
+}
+barra{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+.botao-titulo{
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+
+    background-color: rgb(25, 25, 25);
+    border-radius: 15px;
+    padding: 10px;
+   
+    text-decoration: none;      
+    transition: 0.3s;
+
+    border: none;
+}
+.texto-descricao{
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+.botao-titulo:hover{
+    background-color: rgb(40, 40, 40);
+}
+.botao-titulo:active{
+    transform: scale(0.95);
+}
+.animacao{
+    animation-name: subida;
+    animation-duration: 1s;
+}
+@keyframes subida{
+    from{transform: translateX(-30px);
+    opacity: 0.0;}
+}
+.base-outros{
+    display: inline-block;
+    margin-bottom: 15px;
+
+    color: white;
+    font-size: 25px;
+}
+.texto-outros{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.titulo-outros{
+    background-color: rgb(25, 25, 25);
+    padding: 10px;
+    border-radius: 15px;
+
+    font-size: 25px;
+    font-weight: bolder;
+}
+.icones-barra{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+.titulo-rodape{
+    font-weight: bolder;
+    font-size: 25px;
+    color: orange;
+}
+.texto-rodape{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.barra-pesquisa-alt{
+    color: white;
+    background-color: rgb(40, 40, 40);
+
+    margin-right: auto;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+
+    border: 0px;
+    outline: none; 
+}
+#caixa{
+    width: 170px;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    text-decoration: none;      
+    transition: 0.3s;
+
+    background-color: rgb(25, 25, 25);
+}
+#img-caixa{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-bottom: auto;
+}
+#img-banner{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+#botao-download{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    width: 170px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 15px;
+    padding: 10px;
+
+    outline: none;
+    border: 2px solid lightgreen;
+    transition: 0.3s;
+}
+#botao-download:hover{
+    background-color: lightgreen;
+}
+#botao-download:active{
+    transform: scale(0.95);
+}
+#botao-acessar{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    width: 170px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 15px;
+    padding: 10px;
+
+    outline: none;
+    border: 2px solid lightskyblue;
+    transition: 0.3s;
+
+    margin-top: auto;
+}
+#botao-acessar:hover{
+    background-color: lightskyblue;
+}
+#botao-acessar:active{
+    transform: scale(0.95);
+}
+#bloco{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 10px;
+    margin-left: 60px;
+}
+#barra-pesquisa{
+    color: white;
+    font-size: 25px;
+
+    margin-right: auto;
+    background: none;
+    border: none;    
+    padding: 0;      
+    cursor: pointer;
+    outline: none;  
+}
+#botao-pesquisa{
+    margin-left: auto;
+    background: none;
+    border: none;    
+    padding: 0;      
+    cursor: pointer;
+    outline: none;  
+}
