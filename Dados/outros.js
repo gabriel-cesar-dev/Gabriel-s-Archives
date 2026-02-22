@@ -1,7 +1,8 @@
 const dados_outros = [
     {
         titulo: "Deslobquear Windows 10/11 + Office",
-        texto: `Texto `,
+        texto: `Digite no PowerShell:<br>
+        irm https://get.activated.win | iex`,
     },
     {
         titulo: "Comandos de CMD úteis",
